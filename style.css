@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0% auto;
+
+}
+
+#mainform {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 4%;
+    height: 230px;
+    margin: 50px;
+}
+
+#form button {
+    background-color: rgba(95, 95, 201, 0.863);
+    color: white;
+    padding-left: 50px;    
+    padding-right: 50px;    
+    padding-top:15px ;
+    padding-bottom: 20px;
+
+    border: none;
+    border-radius: 30px;
+}
+
+#seconddiv {
+    padding: 20px;
+    margin: 40px;
+}

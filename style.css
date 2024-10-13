@@ -9,7 +9,9 @@
     height: 641px;
 
 }
-
+.container{
+    height: 600px;
+}
 .form {
     margin-top: 130px;
     padding: 30px;

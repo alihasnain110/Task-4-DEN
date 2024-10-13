@@ -1,4 +1,4 @@
-function submitbtn(message) {
+function submitbtn() {
     Swal.fire({
         title: "Are you sure?",
         icon: "success",

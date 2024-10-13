@@ -6,14 +6,14 @@ function submitbtn(message) {
         confirmButtonColor: "#3085d6",
         cancelButtonColor: "#d33",
         confirmButtonText: "Yes, Submit it!"
-      }).then((result) => {
+    }).then((result) => {
         if (result.isConfirmed) {
-          Swal.fire({
-            title: "Submit!",
-            text: "Your form has been Submited.",
-            icon: "success"
-          });
+            Swal.fire({
+                title: "Submit!",
+                text: "Your form has been Submited.",
+                icon: "success"
+            });
         }
-         });
+    });
 }
 

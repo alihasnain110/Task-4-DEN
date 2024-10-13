@@ -10,7 +10,7 @@ function submitbtn(message) {
         if (result.isConfirmed) {
           Swal.fire({
             title: "Submit!",
-            text: "Your file has been Submited.",
+            text: "Your form has been Submited.",
             icon: "success"
           });
         }

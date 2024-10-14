@@ -13,10 +13,10 @@
         >
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="container d-flex justify-content-center">
+        <div class="container-fluid p-5">
+            <div class="container d-flex flex-wrap justify-content-center">
                 <div class="form">
-                    <form action="#" id="main">
+                    <form action="#" id="main" onsubmit="submitbtn(event)">
                         <h1>Login Form</h1>
                         <div class="mb-3 ">
                             <label for="exampleInputtext1" class="form-label">Full Name</label>
@@ -47,10 +47,10 @@
                                 aria-describedby="emailHelp"
                             >
                         </div>
-                        <button class="btn btn-info " onclick="submitbtn()">Submit</button>
+                        <button type="submit" class="btn btn-info " onclick="submitbtn()">Submit</button>
                     </form>
                 </div>
-                <div class="form pt-5 text-center bg-light w-50">
+                <div class="form pt-5 text-center bg-light ">
                     <h2 class=" pt-5 ">
                         Welcome to
                    

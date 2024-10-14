@@ -6,7 +6,9 @@
 
 .container-fluid {
     background-image: url('image.avif');
-    height: 641px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 
 }
 .container{
